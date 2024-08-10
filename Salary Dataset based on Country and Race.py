@@ -1,8 +1,12 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# ### Import important library
+
+# In[1]:
 
 
-
-
-import pandas 
+import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -10,6 +14,7 @@ import seaborn as sns
 
 # ### Upload and Read Data
 
+# In[6]:
 
 
 df = pd.read_csv(r"C:\Users\meanu\Downloads\salary dataset based on country and race\Salary_Data_Based_country_and_race.csv")
